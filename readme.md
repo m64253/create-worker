@@ -1,6 +1,6 @@
 ## Create Worker
 
-After seeing [https://gist.github.com/3696516] I was inspired and wrote 
+After seeing https://gist.github.com/3696516 I was inspired and wrote 
 this just to test it out and to try make a simple helper function out of it.
 
 ```javascript
