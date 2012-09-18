@@ -5,7 +5,7 @@ this just to test it out and to try make a simple helper function out of it.
 
 ```javascript
 // Create a simple echo worker function that returns what you send it
-var echoFn = createWorkerFunction(function (data, done) {
+var echoFn = createWorker(function (data, done) {
 	done(data);
 });
 
