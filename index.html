@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Worker</title>
+</head>
+<body>
+
+<script src="create-worker.js"></script>
+<script>
+	// Create a simple echo worker function that returns what you send it
+	var echoFn = createWorker(function (data, done) {
+		done(data);
+	});
+
+	// Usage
+	echoFn([1, 2, 3], function (data) {
+		console.log('first', data)
+	});
+
+	// Usage
+	echoFn([4, 5, 6], function (data) {
+		console.log('second', data)
+	});
+</script>
+</body>
+</html>
